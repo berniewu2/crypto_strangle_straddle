@@ -1,1 +1,1 @@
-# strangle_straddle
+# strangle and straddle stretagy in crypto
