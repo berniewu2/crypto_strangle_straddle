@@ -27,8 +27,8 @@ class BackTestSession(object):
     self.eventQueue = queue.Queue()
 
     # Create CsvData class object.
-    dataProvider = 'iVolatility'
-    filename = '/Users/stuartlu/Documents/ATS/Crypto-Arsenal/GroupProject/OptionSuite/marketData/iVolatility/SPX/SPX_2011_2017/RawIV_5day_sample_updated.csv'
+    dataProvider = 'bernie'
+    filename = '/Users/stuartlu/Documents/ATS/Crypto-Arsenal/GroupProject/OptionSuite/marketData/output.csv'
     self.dataHandler = csvData.CsvData(csvPath=filename, dataProvider=dataProvider, eventQueue=self.eventQueue)
 
     # Parameters for strangle strategy -- TODO: move params to file.

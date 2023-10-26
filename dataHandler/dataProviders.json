@@ -30,4 +30,38 @@
   "put_symbol_abbreviation": "P",
   "date_time_format": "%m/%d/%y",
   "data_source_type": "options"
-}}
+},
+"bernie": {
+  "number_columns": 25,
+  "column_names": {
+    "dateTime": "date_time",
+    "underlyingTicker": "trade_id",
+    "exchangeCode": "",
+    "optionSymbol": "instrument_name",
+    "optionType": "option_type",
+    "strikePrice": "strike",
+    "underlyingPrice": "index_price",
+    "askPrice": "",
+    "bidPrice": "",
+    "tradePrice": "price",
+    "impliedVol": "iv",
+    "volume": "amount",
+    "openInterest": "",
+    "delta": "",
+    "theta": "",
+    "vega": "",
+    "gamma": "",
+    "rho": "",
+    "expirationDateTime": "expire_date",
+    "exercisePrice": "",
+    "assignPrice": "",
+    "openCost": "",
+    "closeCost": ""
+  },
+
+  "call_symbol_abbreviation": "C",
+  "put_symbol_abbreviation": "P",
+  "date_time_format": "%y/%m/%d",
+  "data_source_type": "options"
+}
+}
